@@ -1,0 +1,14 @@
+
+<body>
+  <img src="https://i.postimg.cc/zBZKFNj2/fireboy-and-watergirl-2.jpg" alt="Logo" class="logo" width="500" height="150">
+
+  <div class="container">
+    <div class="content">
+      <h2>Pra ganhar é preciso arriscar!</h2>
+      <p> PEDRA, PAPEL ou TESOURA?</p>
+      <button onclick="jogar()">Bora jogar!</button>
+    </div>
+  </div>
+  <footer>Alura - Imersão DEV - 2025</footer>
+</body>
+
