@@ -1,0 +1,127 @@
+////////////////////
+//Exercicio
+//Fogo vence Terra (fogo queima a terra).
+//Terra vence Água (terra absorve a água).
+//Água vence Fogo (água apaga o fogo).
+
+idadeF = prompt ("Quantos anos você tem? ");
+  if(idadeF < 18){
+    alert("Você não pode jogar o jogo do fogo")
+  }
+
+if(idadeF >= 18){
+  alert ("Vamos jogar");
+  //Jogo de Fogo, Água e Terra
+  escolhaJogadorF = prompt ("Digite 1-Fogo 2-Agua 3-Terra")
+  escolhaComputadorF = Math.floor(Math.random() * 3) + 1;
+  //JogadorF Fogo, ComputadorF Fogo ---> Empate!!!
+  //JogadorF Agua, ComputadorF Agua ---> Empate!!!
+  //JogadorF Terra, ComputadorF Terra --->Empate!!!
+  
+  if(escolhaJogadorF == escolhaComputadorF){
+    alert("Empate!!!")
+  }
+  //1-Fogo
+   //JogadorF Fogo, ComputadorF Agua --> ComputadorF venceu
+  if(escolhaJogadorF == 1){
+    if(escolhaComputadorF == 2){
+      alert("Computador venceu, escolheu agua ")
+    }
+    //JogadorF Fogo, ComputadorF Terra--> Jogador venceu  
+    if(escolhaComputadorF == 3){
+        alert("Jogador venceu ,computador terra ")
+      }
+    }
+  }
+//1-Fogo vence 3-Terra (fogo queima a terra).
+//3-Terra vence 2-Água (terra absorve a água).
+//2-Água vence 1-Fogo (água apaga o fogo).
+      
+    //2-Agua
+    //JogadorF Agua, ComputadorF Fogo -->JogadorF venceu.
+    if(escolhaJogadorF == 2){
+      if(escolhaComputadorF == 1){
+        alert("Jogador venceu , computador fogo")
+      }
+    //JogadorF Agua, ComputadorF Terra -->JogadorF venceu.
+      if(escolhaComputadorF == 3){
+        alert("Computador venceu , computador terra")
+      }
+    }  
+  
+  //3- Terra
+  //JogadorF Terra , ComputadorF Fogo --> Computador venceu 
+  if(escolhaJogadorF == 3){
+    if(escolhaComputadorF == 1){
+      alert("Computador venceu ,escolheu fogo ")
+    }
+    //Jogador Terra, ComputadorF Agua --> Jogador venceu
+    if(escolhaComputadorF == 2){
+      alert("Jogador venceu , escolheu terra ")
+    }
+  }
+ 
+alert("A escolha do computador foi: "+ escolhaComputadorF)
+
+//------------------------------------------------------
+
+
+
+
+/*idade = prompt("Quantos anos você tem?");
+if(idade < 18) {
+ alert("Você não pode jogar jokenpo")
+}
+//linha ignorada alert("Vamos começar a jogar!")
+
+if (idade >= 18) {
+  escolhaJogador = prompt("Digite 1-Pedra 2-Papel 3-Tesoura? ");
+  //floor arredonda pra baixo
+  escolhaComputador = Math.floor(Math.random() * 3) + 1;
+
+  //Jogador Pedra, Computador Pedra ---> empate !!!
+  //Jogador Tesoura, Computador Tesoura ---> empate!!!
+  //Jogador Papel, Computador Papel --->empate!!!
+  if (escolhaJogador == escolhaComputador) {
+    alert("empate!!!");
+  }
+
+  if (escolhaJogador == 1) {
+    if (escolhaComputador == 2) {
+      //Jogador Pedra, Computador Papel ---> Computador vence
+      alert("Computador venceu, escolheu papel");
+    }
+    if (escolhaComputador == 3) {
+      //Jogador Pedra, Computador Tesoura ---> Jogador vence
+      alert("Jogador vence, computador tesoura");
+    }
+  }
+
+  if (escolhaJogador == 2) {
+    if (escolhaComputador == 1) {
+      //Jogador Papel, Computador Pedra ---> Jogador vence
+      alert("Jogador venceu, computador pedra!!");
+    }
+    if (escolhaComputador == 3) {
+      //Jogador Papel, Computador Tesoura ---> Computador vence
+      alert("Computador venceu, escolheu tesoura!!");
+    }
+  }
+
+    if (escolhaJogador == 3) {
+      if (escolhaComputador == 1) {
+        //Jogador Tesoura, Computador Pedra ---> Computador vence
+        alert("Computador venceu , computador pedra!!");
+      }
+      if (escolhaComputador == 2) {
+        //Jogador Tesoura, Computador Papel ---> Jogador vence
+        alert("Jogador venceu , computador papel");
+      }
+  }
+
+  //matrix 3 x 3 = 9
+
+  alert("A escolha do computador foi:  " + escolhaComputador);
+}
+*/
+
