@@ -1,0 +1,12 @@
+Exercício: Jogo de Fogo, Água e Terra
+
+Tema: Ao invés de pedra, papel e tesoura, você vai usar fogo, água e terra.
+
+Fogo vence Terra (fogo queima a terra).
+Terra vence Água (terra absorve a água).
+Água vence Fogo (água apaga o fogo).
+Requisitos:
+
+Pergunte ao usuário para escolher entre fogo, água ou terra.
+Gere a escolha do computador usando a lógica de Math.random() como na aula.
+Compare as escolhas e determine o vencedor, mostrando uma mensagem apropriada para cada resultado (vencedor, perdedor ou empate).
