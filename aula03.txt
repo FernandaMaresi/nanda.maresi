@@ -1,0 +1,17 @@
+Desafio: Jogo do Chão de Vidro com Níveis de Dificuldade
+
+Níveis de Dificuldade: Permita que o jogador escolha entre três níveis de dificuldade: fácil, médio e difícil.
+
+No nível fácil, o jogador terá 5 rodadas.
+No nível médio, o jogador terá 3 rodadas.
+No nível difícil, o jogador terá apenas 1 rodada.
+Pisos Aleatórios: Em vez de ter sempre 3 pisos, faça com que o número de pisos disponíveis varie de acordo com o nível de dificuldade:
+
+Fácil: 3 pisos
+Médio: 4 pisos
+Difícil: 5 pisos
+Feedback Visual: Adicione mensagens visuais que informem ao jogador se ele escolheu um piso seguro ou se quebrou o vidro.
+
+Pontuação: Crie um sistema de pontuação onde o jogador ganha pontos por cada rodada que sobrevive e perde pontos se escolher um piso quebrado.
+
+Finalização: Ao final do jogo, exiba a pontuação total do jogador e uma mensagem de incentivo.
