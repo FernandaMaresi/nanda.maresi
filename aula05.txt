@@ -1,0 +1,8 @@
+Crie uma variável chamada filmes que será um array.
+Dentro desse array, adicione pelo menos três objetos, cada um representando uma pergunta sobre filmes.
+Cada objeto deve ter as seguintes chaves:
+pergunta: uma pergunta sobre um filme (por exemplo, "Qual é o filme que ganhou o Oscar de Melhor Filme em 2020?").
+respostas: um array com pelo menos quatro opções de resposta.
+opcao: a resposta correta (por exemplo, "Parasita").
+correto: um booleano que indica se a resposta é correta (true ou false).
+Depois de criar seu JSON, tente implementar uma lógica no JavaScript que exiba essas perguntas e permita que o usuário escolha uma resposta. Boa sorte e divirta-se programando!
